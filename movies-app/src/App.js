@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import { InputAddMovies } from './components/InputAddMovies';
-import { InputAddGenres } from './components/InputAddGenre';
+import { InputMoviesForm } from './components/InputMoviesForm';
+
 
 export const App = () => {
   return (
@@ -9,8 +9,7 @@ export const App = () => {
       <div>
         <p> hola</p>
         </div>
-        <InputAddMovies/>
-        <InputAddGenres/>
+        <InputMoviesForm/>
     </div>
     
     
